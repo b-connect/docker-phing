@@ -23,6 +23,7 @@ RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/commun
         php7-curl \
         php7-json \
         php7-dom \
+        php7-simplexml \
         php7-phar \
         php7-mbstring \
         php7-curl
