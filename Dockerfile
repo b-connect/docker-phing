@@ -28,6 +28,7 @@ RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/commun
         php7-simplexml \
         php7-phar \
         php7-mbstring \
+        php7-xsl \
         php7-curl
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
