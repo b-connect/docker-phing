@@ -39,6 +39,5 @@ RUN php -r "unlink('composer-setup.php');"
 RUN mv composer.phar /usr/bin/composer
 RUN chmod +x /usr/bin/composer
 RUN composer global require hirak/prestissimo
-RUN composer global require edgedesign/phpqa
 RUN composer global require phing/phing pear/versioncontrol_git:"dev-master"
 ENV PATH="/root/.composer/vendor/bin:${PATH}"
