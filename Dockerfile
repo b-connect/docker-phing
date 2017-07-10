@@ -25,6 +25,7 @@ RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/commun
         php7-dom \
         php7-xmlwriter \
         php7-tokenizer \
+        php7-ctype \
         php7-simplexml \
         php7-phar \
         php7-mbstring \
