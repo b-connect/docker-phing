@@ -19,7 +19,6 @@ RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/commun
         php7-zlib \
         php7-opcache \
         php7-mcrypt \
-        php7-openssl \
         php7-curl \
         php7-json \
         php7-gd \
