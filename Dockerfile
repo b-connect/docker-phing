@@ -22,6 +22,7 @@ RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/commun
         php7-openssl \
         php7-curl \
         php7-json \
+        php7-gd \
         php7-dom \
         php7-xmlwriter \
         php7-tokenizer \
